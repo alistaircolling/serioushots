@@ -1,25 +1,45 @@
 import logo from './logo.svg';
+import background from './background.png';
+
 import './App.css';
 
-function App() {
+import React, { useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/about" element={<About />}></Route>
+        <Route path="/users" element={<Users />}></Route>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/djpromodownload" element={<DJPromoDownload />} />
+      </Routes>
+    </Router>
   );
 }
+const DJPromoDownload = () => {
+  useEffect(() => {
+    window.location.replace('https://serioushots.carrd.co');
+  });
+};
+function About() {
+  return <h2>About</h2>;
+}
 
-export default App;
+function Users() {
+  return <h2>Users</h2>;
+}
+
+const Home = () => {
+  return (
+    <div
+      style={{
+        backgroundImage: `url(${background})`,
+        backgroundRepeat: 'repeat',
+        width: '100vw',
+        height: '100vh',
+      }}
+    ></div>
+  );
+};
