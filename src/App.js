@@ -40,6 +40,20 @@ const Home = () => {
         width: '100vw',
         height: '100vh',
       }}
-    ></div>
+    >
+      <h1
+        style={{
+          fontFamily:
+            'Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif',
+          fontSize: 60,
+          fontStyle: 'italic',
+          fontWeight: 'lighter',
+          textAlign: 'center',
+          color: '#FAFE1B',
+        }}
+      >
+        Serious Hots
+      </h1>
+    </div>
   );
 };
