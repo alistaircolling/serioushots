@@ -8,14 +8,15 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 export default function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/about" element={<About />}></Route>
-        <Route path="/users" element={<Users />}></Route>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/djpromodownload" element={<DJPromoDownload />} />
-      </Routes>
-    </Router>
+    <Home />
+    // <Router>
+    //   <Routes>
+    //     <Route path="/about" element={<About />}></Route>
+    //     <Route path="/users" element={<Users />}></Route>
+    //     <Route path="/" element={<Home />}></Route>
+    //     <Route path="/djpromodownload" element={<DJPromoDownload />} />
+    //   </Routes>
+    // </Router>
   );
 }
 const DJPromoDownload = () => {
@@ -33,11 +34,14 @@ function Users() {
 
 const Home = () => {
   return (
-    <div
+    <a
+      href="https://serioushots.bandcamp.com/"
       style={{
+        textDecoration: 'none',
         backgroundImage: `url(${background})`,
         backgroundRepeat: 'repeat',
         width: '100vw',
+        backgroundColor: '#96DEE8',
         height: '100vh',
       }}
     >
@@ -50,10 +54,14 @@ const Home = () => {
           fontWeight: 'lighter',
           textAlign: 'center',
           color: '#FAFE1B',
+          backgroundColor: '#FD7614',
+          marginTop: 0,
+          height: '100vh',
+          paddingTop: '30px',
         }}
       >
         Serious Hots
       </h1>
-    </div>
+    </a>
   );
 };
