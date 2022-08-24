@@ -54,14 +54,49 @@ const Home = () => {
           fontWeight: 'lighter',
           textAlign: 'center',
           color: '#FAFE1B',
-          backgroundColor: '#FD7614',
+          backgroundColor: '#F9500F',
           marginTop: 0,
-          height: '100vh',
+          marginBottom: 0,
+          // height: '100vh',
           paddingTop: '30px',
         }}
       >
         Serious Hots
       </h1>
+      <div
+        style={{
+          fontFamily:
+            'Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif',
+          fontSize: 40,
+          fontStyle: 'italic',
+          fontWeight: 'lighter',
+          textAlign: 'center',
+          color: '#96DEE8',
+          backgroundColor: '#F9500F',
+          marginTop: 0,
+          padding: '40px',
+        }}
+      >
+        Electronic dance music
+      </div>
+      <div
+        style={{
+          fontFamily:
+            'Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif',
+          fontSize: 40,
+          fontStyle: 'italic',
+          fontWeight: 'lighter',
+          textAlign: 'center',
+          color: '#00ff00',
+          backgroundColor: '#F9500F',
+          marginTop: 0,
+          height: '100vh',
+          padding: '40px',
+          paddingTop: 0,
+        }}
+      >
+        Debut EP available on Bandcamp 9/9/2022
+      </div>
     </a>
   );
 };
