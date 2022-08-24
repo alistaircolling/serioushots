@@ -63,7 +63,7 @@ const Home = () => {
       >
         Serious Hots
       </h1>
-      <div
+      <h2
         style={{
           fontFamily:
             'Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif',
@@ -74,12 +74,13 @@ const Home = () => {
           color: '#96DEE8',
           backgroundColor: '#F9500F',
           marginTop: 0,
+          marginBottom: 0,
           padding: '40px',
         }}
       >
         Electronic dance music
-      </div>
-      <div
+      </h2>
+      <p
         style={{
           fontFamily:
             'Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif',
@@ -96,7 +97,7 @@ const Home = () => {
         }}
       >
         Debut EP available on Bandcamp 9/9/2022
-      </div>
+      </p>
     </a>
   );
 };
