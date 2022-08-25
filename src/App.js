@@ -34,70 +34,94 @@ function Users() {
 
 const Home = () => {
   return (
-    <a
-      href="https://serioushots.bandcamp.com/"
-      style={{
-        textDecoration: 'none',
-        backgroundImage: `url(${background})`,
-        backgroundRepeat: 'repeat',
-        width: '100vw',
-        backgroundColor: '#96DEE8',
-        height: '100vh',
-      }}
-    >
-      <h1
+    <div>
+      <a
+        href="https://serioushots.bandcamp.com/"
         style={{
-          fontFamily:
-            'Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif',
-          fontSize: 60,
-          fontStyle: 'italic',
-          fontWeight: 'lighter',
-          textAlign: 'center',
-          color: '#FAFE1B',
-          backgroundColor: '#F9500F',
-          marginTop: 0,
-          marginBottom: 0,
-          // height: '100vh',
-          paddingTop: '30px',
-        }}
-      >
-        Serious Hots
-      </h1>
-      <h2
-        style={{
-          fontFamily:
-            'Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif',
-          fontSize: 40,
-          fontStyle: 'italic',
-          fontWeight: 'lighter',
-          textAlign: 'center',
-          color: '#96DEE8',
-          backgroundColor: '#F9500F',
-          marginTop: 0,
-          marginBottom: 0,
-          padding: '40px',
-        }}
-      >
-        Electronic dance music
-      </h2>
-      <p
-        style={{
-          fontFamily:
-            'Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif',
-          fontSize: 40,
-          fontStyle: 'italic',
-          fontWeight: 'lighter',
-          textAlign: 'center',
-          color: '#00ff00',
-          backgroundColor: '#F9500F',
-          marginTop: 0,
+          textDecoration: 'none',
+          backgroundImage: `url(${background})`,
+          backgroundRepeat: 'repeat',
+          width: '100vw',
+          backgroundColor: '#96DEE8',
           height: '100vh',
-          padding: '40px',
-          paddingTop: 0,
         }}
       >
-        Debut EP available on Bandcamp 9/9/2022
-      </p>
-    </a>
+        <h1
+          style={{
+            fontFamily:
+              'Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif',
+            fontSize: 60,
+            fontStyle: 'italic',
+            fontWeight: 'lighter',
+            textAlign: 'center',
+            color: '#FAFE1B',
+            backgroundColor: '#F9500F',
+            marginTop: 0,
+            marginBottom: 0,
+            // height: '100vh',
+            paddingTop: '30px',
+          }}
+        >
+          Serious Hots
+        </h1>
+        <h2
+          style={{
+            fontFamily:
+              'Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif',
+            fontSize: 40,
+            fontStyle: 'italic',
+            fontWeight: 'lighter',
+            textAlign: 'center',
+            color: '#96DEE8',
+            backgroundColor: '#F9500F',
+            marginTop: 0,
+            marginBottom: 0,
+            padding: '40px',
+          }}
+        >
+          Electronic dance music
+        </h2>
+        <p
+          style={{
+            fontFamily:
+              'Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif',
+            fontSize: 40,
+            fontStyle: 'italic',
+            fontWeight: 'lighter',
+            textAlign: 'center',
+            color: '#00ff00',
+            backgroundColor: '#F9500F',
+            marginTop: 0,
+            marginBottom: 0 - 1,
+            height: '40vh',
+            padding: '40px',
+            paddingTop: 0,
+          }}
+        >
+          Debut EP available on Bandcamp 9/9/2022
+        </p>
+      </a>
+      <a
+        style={{
+          fontFamily:
+            'Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif',
+          fontSize: 40,
+          fontStyle: 'italic',
+          fontWeight: 'lighter',
+          textAlign: 'center',
+          color: '#FFFFFF',
+          backgroundColor: '#F9500F',
+          marginTop: 0,
+          height: '40vh',
+          paddingTop: 0,
+          textDecoration: 'none',
+          width: '100vw',
+          display: 'block',
+        }}
+        href="mailto:info@serioushots.com"
+      >
+        info@serioushots.com
+      </a>
+    </div>
   );
 };
