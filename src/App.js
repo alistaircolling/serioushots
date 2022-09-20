@@ -98,7 +98,7 @@ const Home = () => {
             paddingTop: 0,
           }}
         >
-          Debut EP available on Bandcamp 9/9/2022
+          Debut EP available on Bandcamp 7/10/2022
         </p>
       </a>
       <a
