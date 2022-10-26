@@ -36,7 +36,7 @@ const Home = () => {
   return (
     <div>
       <a
-        href="https://serioushots.bandcamp.com/"
+        href="https://serious-hots.bandcamp.com/album/serious-hots-ep"
         style={{
           textDecoration: 'none',
           backgroundImage: `url(${background})`,
